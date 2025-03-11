@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profissional - Matheus Sarno Muiños</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQGipDgMv_Kv8A/profile-displayphoto-shrink_200_200/B4EZPvV6.2GwAc-/0/1734887325278?e=1747267200&v=beta&t=v_qOECi7ozktnt-kmg_d7l4bCVvNrJHZ1t_iU40Gu34" class="profile-photo">
+        <h1>Matheus Sarno Muiños</h1>
+        <p>Engenheiro de Computação - Sétimo Semestre - SENAI CIMATEC</p>
+    </header>
+    <main>
+        <section class="introduction">
+            <h2>Sobre Mim</h2>
+            <p>Como estudante do sétimo período de Engenharia de Computação no SENAI CIMATEC, possuo um histórico acadêmico sólido, com um score de 8,14. Durante o ano de 2024, atuei como monitor acadêmico da disciplina de Física 1 para todos os cursos de engenharia do CIMATEC, auxiliando outros estudantes no entendimento dos conceitos fundamentais da matéria. Agora, no ano de 2025, fui selecionado como monitor na disciplina de Cálculo Avançado, para os cursos de Engenharia Elétrica, Controle e Automação e Computação. Ao longo de minha trajetória, desenvolvi competências em diversas áreas, destacando-me em programação, sistemas embarcados (IoT) e banco de dados.</p>
+        </section>
+        <section class="skills">
+            <h2>Competências Técnicas</h2>
+            <div class="skills-grid">
+                <div onclick="showDetail('DataBaseDeveloper')" class="skill-card">Banco de Dados</div>
+                <div onclick="showDetail('Dev')" class="skill-card">Desenvolvimento de Software</div>
+                <div onclick="showDetail('Poo')" class="skill-card">Programação Orientada a Objetos</div>
+                <div onclick="showDetail('Internet Of Things')" class="skill-card">Internet das Coisas</div>
+                <div onclick="showDetail('AED')" class="skill-card">Algoritmos e Estruturas de Dados</div>
+                <div onclick="showDetail('WEB')" class="skill-card">Desenvolvimento de Sistemas Web e Desktop</div>
+                <div onclick="showDetail('Gestão')" class="skill-card">Gestão de Projetos e Liderança de Equipes</div>
+            </div>
+            <div id="detailText" class="skill-details"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Matheus Sarno Muiños</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
